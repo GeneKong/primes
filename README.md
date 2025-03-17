@@ -101,7 +101,7 @@ $$
 
 $$
     2 \cdot 3 \cdot 5 \ldots p \cdot p_m \ldots p_n \cdot p_k \\
-    如果在 p_m \ldots p_n 所有的素数全部找出来，那么 p_k 之后的素数将会丢掉 \{ (2 \cdot 3 \ldots p_k \cdot m \pm 1) | m \in \mathbb{Z} \} 这个特性 \\
+    如果将 p_m \ldots p_n 中所有的素数全部找出来，那么 p_k 之后的素数将会丢掉 \{ (2 \cdot 3 \ldots p_k \cdot m \pm 1) | m \in \mathbb{Z} \} 这个特性 \\
     这个违背了素数产生的基本规律，故不存在最大的孪生素数对。
 $$
 
