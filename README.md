@@ -102,7 +102,7 @@ $$
 
 ## 为什么孪生素数的特性永不消失？
 
-考虑素数序列由 $2,3,5 \ldots p$ 扩充为 $2,3,5 \ldots p \cdot p_n$ 时，由于 $p$ 的特性中存在 $\{ (2 \cdot 3 \ldots p \cdot m \pm 1) | m \in \mathbb{Z} \}$ ，而 $p_n$ 与 $(2 \cdot 3 \ldots p)$ 互质，那么 $\{ (2 \cdot 3 \ldots p \cdot m \pm 1) | m \in \mathbb{Z} \} \equiv 0,1 \ldots p_n -1 \pmod{p_n}$ ，在新特性 $\{ (2 \cdot 3 \ldots p \cdot p_n\cdot m \pm k) | m \in \mathbb{Z} , k 为 1 \ldots n,n+2 \ldots 等 \}$ 中，除了模数为 $1,p_n-1$ 两个位置，其余的 $p_n-2$ 个由 $\{ (2 \cdot 3 \ldots p \cdot m \pm 1) | m \in \mathbb{Z} \}$ 产生的伪孪生素数对必然会保留下来。
+考虑素数序列由 $2,3,5 \ldots p$ 扩充为 $2,3,5 \ldots p \cdot p_n$ 时，由于 $p$ 的特性中存在 $\{ (2 \cdot 3 \ldots p \cdot m \pm 1) | m \in \mathbb{Z} \}$ ，而 $p_n$ 与 $(2 \cdot 3 \ldots p)$ 互质，那么 $\{ (2 \cdot 3 \ldots p \cdot m) | m \in \mathbb{Z} \} \equiv 0,1 \ldots p_n -1 \pmod{p_n}$ ，在新特性 $\{ (2 \cdot 3 \ldots p \cdot p_n\cdot m \pm k) | m \in \mathbb{Z} , k 为 1 \ldots n,n+2 \ldots 等 \}$ 中，除了模数为 $1,p_n-1$ 两个位置，其余的 $p_n-2$ 个由 $\{ (2 \cdot 3 \ldots p \cdot m \pm 1) | m \in \mathbb{Z} \}$ 产生的伪孪生素数对必然会保留下来。
 
 举例来说明：
 
