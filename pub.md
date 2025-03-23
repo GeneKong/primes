@@ -1,6 +1,6 @@
 # 素数分布规律及其在孪生素数无限性中的推论
 
-作者：GeneKong
+作者：龚云祥(GeneKong)
 
 摘要：本文通过分析素数生成过程中的筛法特性，提出了一种基于模数结构的素数分布规律模型。通过构造2、3、5等素数筛后的剩余数集，揭示了“伪素数”的周期性分布特征，并论证了此类特性在后续筛法中的传递性。进一步地，结合反证法分析了孪生素数无限性的可能性，指出特性传递的不可消除性为孪生素数的无限存在提供了理论支持。
 
@@ -59,10 +59,6 @@ $$
 ## 6. 结论  
 通过构造素数筛法的周期性特性模型，本文论证了伪孪生素数的持续存在性，并基于反证法推测孪生素数无限。尽管严格证明仍需补充筛法密度的定量分析，但特性传递规律为孪生素数猜想提供了新的视角。
 
-本文相关代码及实现已开源，可在GitHub仓库中获取：
-
-GitHub Repository: https://github.com/GeneKong/primes.git
-
 **参考文献**  
 
 [1] Zhang Y. Bounded gaps between primes. *Annals of Mathematics*, 2014, 179(3): 1121-1174.  
@@ -75,3 +71,14 @@ GitHub Repository: https://github.com/GeneKong/primes.git
 - 图2：筛除2、3后的伪素数分布 ![筛除2、3后的伪素数分布](src/03.png)
 - 图3：筛除2、3、5后的伪素数分布 ![筛除2、3、5后的伪素数分布](src/05.png)
 
+**代码可用性声明**
+
+本研究的文档原文以及实验工具及实验数据已托管至GitHub仓库：
+
+* Repository: https://github.com/GeneKong/primes.git
+* Version: v1.0.0 (发布日期: 2025年3月)
+* DOI: 10.5281/zenodo.15071343
+
+## 版权与许可  
+
+© 2025 龚云祥。本文采用 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)。  
