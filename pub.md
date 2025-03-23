@@ -26,9 +26,11 @@
 ### 3.2 高级筛选阶段
 
 引入素数 $p_k$ 后，**伪素数** 集可表为：
+
 $$
-\mathcal{S}(2,3,\ldots,p_k) = \bigcup_{i} \left\{ \left( \prod_{j=1}^k p_j \cdot m \pm a_i \right) \mid m \in \mathbb{Z} \right\},
+\mathcal{S}(2,3,\ldots,p_k) = \bigcup_{i} \{ ( \prod_{j=1}^k p_j \cdot m \pm a_i ) \mid m \in \mathbb{Z} \},
 $$  
+
 其中 $a_i$ 为与 $\prod_{j=1}^k p_j$ 互质的偏移量。例如，引入5后，伪素数集为 $\{30m \pm 1, \pm 7, \pm 11, \pm 13\}$ （图3）。  
 
 **定理3.1（特性传递不变性）**：对于任意素数序列 $p_1, p_2, \ldots, p_k$ ，其筛法生成的伪素数分布特性在引入新素数 $p_{k+1}$ 时，满足：
@@ -36,9 +38,11 @@ $$
 - **保留比例**： $\frac{p_{k+1}-2}{p_{k+1}}$ 的伪孪生素数对不受新素数影响。
 
 **证明**：考虑伪孪生素数对 $\prod_{j=1}^k p_j \cdot m \pm 1$ ，由于 $p_{k+1}$ 与 $\prod_{j=1}^k p_j$ 互质，根据模运算性质：
+
 $$
 \prod_{j=1}^k p_j \cdot m \pm 1 \not\equiv 0 \pmod{p_{k+1}} \quad \text{除非} \quad m \equiv \pm \left( \prod_{j=1}^k p_j \right)^{-1} \pmod{p_{k+1}}.
 $$
+
 因此，仅当$m$满足上述同余条件时，候选对被筛除，其余 $\frac{p_{k+1}-2}{p_{k+1}}$ 比例的候选对必然保留。
 
 ## 4. 孪生素数无限性的反证法分析  
