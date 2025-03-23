@@ -31,9 +31,15 @@ $$
 $$  
 其中 $a_i$ 为与 $\prod_{j=1}^k p_j$ 互质的偏移量。例如，引入5后，伪素数集为 $\{30m \pm 1, \pm 7, \pm 11, \pm 13\}$ （图3）。  
 
-**定理3.1（特性传递不变性）**：对于任意素数序列 $p_1, p_2, \ldots, p_k$ ，其筛法生成的伪素数分布特性在引入新素数 $p_{k+1}$ 时部分保留，且保留比例为 $\frac{p_{k+1}-2}{p_{k+1}}$ 。  
+**定理3.1（特性传递不变性）**：对于任意素数序列 $p_1, p_2, \ldots, p_k$ ，其筛法生成的伪素数分布特性在引入新素数 $p_{k+1}$ 时，满足：
+- **±1候选对保留**：形如 $\prod_{j=1}^k p_j \cdot m \pm 1$ 的伪孪生素数对，除非 $m \equiv \pm 1 \pmod{p_{k+1}}$（具体值依模运算而定），否则必然保留；  
+- **保留比例**： $\frac{p_{k+1}-2}{p_{k+1}}$ 的伪孪生素数对不受新素数影响。
 
-**证明**：新素数 $p_{k+1}$ 仅筛除 **伪素数集** 中模 $p_{k+1}$ 同余于0或特定值的元素，其余 $\frac{p_{k+1}-2}{p_{k+1}}$ 比例的伪孪生素数对得以保留。
+**证明**：考虑伪孪生素数对 $\prod_{j=1}^k p_j \cdot m \pm 1$ ，由于 $p_{k+1}$ 与 $\prod_{j=1}^k p_j$ 互质，根据模运算性质：
+$$
+\prod_{j=1}^k p_j \cdot m \pm 1 \not\equiv 0 \pmod{p_{k+1}} \quad \text{除非} \quad m \equiv \pm \left( \prod_{j=1}^k p_j \right)^{-1} \pmod{p_{k+1}}.
+$$
+因此，仅当$m$满足上述同余条件时，候选对被筛除，其余 $\frac{p_{k+1}-2}{p_{k+1}}$ 比例的候选对必然保留。
 
 ## 4. 孪生素数无限性的反证法分析  
 
@@ -54,11 +60,13 @@ $$
 GitHub Repository: https://github.com/GeneKong/primes.git
 
 **参考文献**  
+
 [1] Zhang Y. Bounded gaps between primes. *Annals of Mathematics*, 2014, 179(3): 1121-1174.  
 [2] Maynard J. Small gaps between primes. *Annals of Mathematics*, 2015, 181(1): 383-413.  
 [3] Tao T. Polymath8b: New equidistribution estimates of Zhang type. *arXiv preprint*, 2014.  
 
 **附录**  
+
 - 图1：筛除2的倍数后的伪素数分布 ![筛除2的倍数后的伪素数分布](src/02.png)
 - 图2：筛除2、3后的伪素数分布 ![筛除2、3后的伪素数分布](src/03.png)
 - 图3：筛除2、3、5后的伪素数分布 ![筛除2、3、5后的伪素数分布](src/05.png)
