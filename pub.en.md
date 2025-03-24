@@ -58,8 +58,7 @@ Assume there exists a largest twin prime pair $(P, P+2)$. Then, for all $n > P$,
 
 ## 5. Discussion and Future Work  
 
-1. **Limitations**: This paper does not rigorously quantify the cumulative effects of property transitivity and focuses solely on the incremental retention of pseudo-twin prime pairs within periodic cycles (i.e., the retention increments introduced by each successive prime in the sieve process). Future work should integrate analytic number theory tools (e.g., the Bombieri-Vinogradov theorem) to further analyze sieve densities.
-2. **Extensions**: Investigate the infinitude of prime pairs with generalized gaps (e.g., 6, 12) or probabilistic thresholds of property transitivity via random models.  
+1. **Extensions**: Investigate the infinitude of prime pairs with generalized gaps (e.g., 6, 12) or probabilistic thresholds of property transitivity via random models.  
 
 ## 6. Conclusion  
 
