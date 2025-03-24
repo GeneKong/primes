@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/949740981.svg)](https://doi.org/10.5281/zenodo.15071342)
 
-当前版本为知乎普及版本的内容，论文版本文章直接跳转到：[论文原稿](pub.md) 。
+当前版本为知乎普及版本的内容，论文版本文章直接跳转到：[论文原稿](pub.md)，[论文原稿EN](pub.en.md) 。
 
 知乎原文位置：[再谈素数](https://zhuanlan.zhihu.com/p/30738176689) 。
 
