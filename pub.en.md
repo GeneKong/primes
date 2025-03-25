@@ -52,7 +52,7 @@ Thus, only when $m$ satisfies the above congruence are the candidate pairs elimi
 
 ## 4. Proof by Contradiction for the Infinitude of Twin Primes  
 
-Assume there exists a largest twin prime pair $(P, P+2)$. Then, for all $n > P$, the candidate twin prime set $\mathcal{S}(2,3,\ldots,p_k)$ must contain no uncovered pairs $(q, q+2)$. However, Theorem 3.1 ensures that such candidate pairs persist with a positive proportion in every sieving stage and their count within each period $\prod_{j=1}^{k} p_j$ is no less than $p_k - 2$. This contradicts the assumption of a "largest twin prime pair."  
+Assume there exists a largest twin prime pair $(P, P+2)$. Then, for all $n > P$, the sieve residue set $\mathcal{S}(2,3,\ldots,p_k)$ must not contain any candidate twin prime pairs $(q, q+2)$ that are not covered by actual primes. However, Theorem 3.1 ensures that such candidate pairs persist with a positive proportion in every sieving stage and their count within each period $\prod_{j=1}^{k} p_j$ is no less than $p_k - 2$. This contradicts the assumption of a "largest twin prime pair." 
 
 **Conclusion 4.1**: Within the cyclic period $\prod_{j=1}^{k} p_j$, the incremental preservation of candidate twin prime pairs is always no less than $p_k - 2$. Therefore, twin primes are infinite.  
 
