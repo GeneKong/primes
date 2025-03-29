@@ -2,13 +2,25 @@
 
 **Author**: Gene Kong  
 
-**Abstract**: This paper proposes a model for the distribution of prime numbers based on modular structure by analyzing the characteristics of sieve methods in prime generation. By constructing residual number sets after sieving with primes such as 2, 3, 5, etc., we reveal the periodic distribution features of "sieve residues" and demonstrate that such characteristics persist in subsequent sieving processes. Furthermore, using proof by contradiction, we analyze the infinitude of twin primes. We argue that the inherent persistence of candidate twin prime pairs provides theoretical support for the unbounded existence of twin primes.  
+**Abstract:** This paper builds upon the Eratosthenes sieve to propose a periodic model of prime number distribution based on modular structures. By constructing residue sets after sieving with primes such as 2, 3, and 5, we reveal the periodic distribution characteristics of "sieve remainders" and demonstrate that such properties persist in subsequent sieving processes.  
+Furthermore, using proof by contradiction, we analyze the possibility of the infinitude of twin primes. We argue that the irremovable nature of candidate twin prime characteristics provides theoretical support for the infinite existence of twin primes.  
 
-**Keywords**: Prime distribution; Twin Prime Conjecture; Sieve methods; Modular structure; Property preservation; Sieve residues; Candidate twin primes  
+**Keywords:** Prime distribution; Twin prime conjecture; Sieve method; Modular structure; Property preservation; Sieve remainders; Candidate twin primes  
 
 ## 1. Introduction  
 
-The Twin Prime Conjecture—whether there exist infinitely many prime pairs of the form $(p, p+2)$—remains one of the central unsolved problems in number theory. Although Zhang [@zhang2014bounded], Maynard [@maynard2015small], and Castryck [@castryck2014new] have proven the existence of infinitely many prime pairs with gaps less than 70 million via bounded gap methods, narrowing this interval to exactly 2 still requires groundbreaking theoretical tools. This paper approaches the problem from an extended perspective of the Sieve of Eratosthenes, proposing a modular structure-based model for prime distribution and exploring the infinitude of twin primes through the persistent properties of candidate twin prime pairs.  
+The twin prime conjecture (i.e., whether there exist infinitely many prime pairs of the form $(p, p+2)$ ) remains one of the central unsolved problems in number theory. A groundbreaking advance was achieved by Yitang Zhang (2013) [@zhang2014bounded], who employed an innovative GPY sieve method to prove the existence of infinitely many prime pairs with gaps smaller than 70 million. This result is widely regarded as a landmark achievement in 21st-century number theory.  
+
+Subsequently, Castryck et al. (2014) [@castryck2014new] focused on the intersection of computational number theory and sieve theory. They proposed a novel sieve strategy rooted in algebraic number theory and computational optimization, leveraging tools such as local rings and modular forms to reanalyze the distribution properties of sieve remainders.  
+
+Building upon these foundations, Maynard (2015) [@maynard2015small] independently developed an enhanced multidimensional sieve framework. By optimizing weight functions, he significantly reduced the minimal gap between prime pairs to 600. Later, the Polymath Project synthesized the methodologies of Maynard and Castryck et al., further refining the bound to 246. These collective efforts underscore the formidable potential of sieve methods in studying prime distribution.  
+
+As a pivotal tool for investigating prime distribution, the refinement and extension of sieve methods have long been a focal point in number theory. For instance, the Eratosthenes sieve—the most classical prime-sieving algorithm—constructs prime sets by iteratively eliminating composite numbers. In recent years, sieve optimization techniques incorporating modular structures have garnered substantial attention, not only improving algorithmic efficiency but also offering fresh perspectives for deciphering the patterns underlying prime distribution.  
+
+The study of sieve remainders holds critical importance in sieve optimization. Sieve remainders, defined as numbers not eliminated during sieving, exhibit distribution characteristics that directly influence the performance and applicability of sieve methods. A deeper understanding of their periodicity and distribution patterns not only facilitates the design of more efficient algorithms but also provides theoretical insights into longstanding problems such as the twin prime conjecture.  
+
+This paper proposes a modular structure-based model for prime distribution, extending the principles of the Eratosthenes sieve. By analyzing the periodic distribution properties of sieve remainders, we aim to establish preservation rules for candidate twin prime characteristics and further explore the possibility of the infinitude of twin primes. Our research contributes novel theoretical support to the twin prime conjecture and offers innovative ideas for the optimization of sieve methodologies.  
+
 
 ## 2. Definitions and Notations  
 
